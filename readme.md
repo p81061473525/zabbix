@@ -1,8 +1,5 @@
 # 這是一個 zabbix 安裝 與 操作專案
 
-(time1) [root@as-50-200 ~]# getenforce
-Disabled
-
 # lazydog.sh 
 
 ```
@@ -29,6 +26,6 @@ Disabled
 # git clone https://github.com/zabbix/zabbix-docker.git -b 5.4
   cd zabbix-docker 
   docker-compose -f docker-compose_v3_centos_mysql_latest.yaml up -d
-# 睡 60 秒後，測試 80
+# 睡 30 秒後，測試 80
   sleep 30
   curl http://127.0.0.1 
