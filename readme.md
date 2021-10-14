@@ -24,6 +24,6 @@
   git clone https://github.com/zabbix/zabbix-docker.git
   cd zabbix-docker 
   docker-compose -f docker-compose_v3_centos_mysql_latest.yaml up -d
-# 睡5秒後，測試 80
-  sleep 5 
+# 睡 30 秒後，測試 80
+  sleep 30
   curl http://127.0.0.1 
