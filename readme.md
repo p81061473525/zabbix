@@ -27,5 +27,18 @@
   cd zabbix-docker 
   docker-compose -f docker-compose_v3_centos_mysql_latest.yaml up -d
 # 睡 30 秒後，測試 80
-  sleep 30
-  curl http://127.0.0.1 
+  sleep 10
+  echo " 經過 10 s"
+  sleep 10
+  echo " 經過 20 s"
+  sleep 10 
+  echo " 經過 20 s" 
+  curl http://127.0.0.1
+  echo " 倘若無法於 localhost　測試成功，請參考下列出資訊 "
+# 查看 docker ps 
+  echo "################"
+  echo " 檢測 docker ps " 
+  echo "################"
+  echo " "
+  echo " 倘若 docker ps 正常，請稍後幾分鐘等候 docker 延遲等情況 " 
+  
