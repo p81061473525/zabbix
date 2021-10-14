@@ -11,7 +11,7 @@
   setenforce 0 
 
 # yum 安裝 docker 
-  yum install docker 
+  yum install docker -y 
 # systemd 默認並啟動 docker-engine
   systemctl enable docker --now 
 # 安裝 docker-compose 
