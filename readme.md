@@ -1,5 +1,8 @@
 # 這是一個 zabbix 安裝 與 操作專案
 
+(time1) [root@as-50-200 ~]# getenforce
+Disabled
+
 # lazydog.sh 
 
 ```
