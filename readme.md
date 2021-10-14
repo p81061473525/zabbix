@@ -23,6 +23,7 @@
 # 下載 ZBX-office-dockerfile 並安裝 ZBX_5.4
   git clone https://github.com/zabbix/zabbix-docker.git
   cd zabbix-docker 
+  git checkout -b 4.0
   docker-compose -f docker-compose_v3_centos_mysql_latest.yaml up -d
 # 睡 30 秒後，測試 80
   sleep 30
