@@ -28,6 +28,6 @@ Disabled
   cd zabbix-docker 
   git checkout -b 4.0
   docker-compose -f docker-compose_v3_centos_mysql_latest.yaml up -d
-# 睡 30 秒後，測試 80
+# 睡 60 秒後，測試 80
   sleep 60
   curl http://127.0.0.1 
