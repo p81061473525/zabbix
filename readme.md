@@ -30,5 +30,5 @@ Disabled
   cd zabbix-docker 
   docker-compose -f docker-compose_v3_centos_mysql_latest.yaml up -d
 # 睡 60 秒後，測試 80
-  sleep 60
+  sleep 30
   curl http://127.0.0.1 
