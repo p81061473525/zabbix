@@ -15,11 +15,7 @@
   ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
   echo " 較驗 docker-compose 安裝 : "
   docker-compose -v 
-# 下載 ZBX-office-dockerfile 並安裝 ZBX_4.0
-  git clone https://github.com/zabbix/zabbix-docker.git -b 4.0
-# ZBX_5.4 
-# git clone https://github.com/zabbix/zabbix-docker.git -b 5.4
-  cd zabbix-docker 
+# 安裝  
   docker-compose -f docker-compose_v3_centos_mysql_latest.yaml up -d
 # 睡 30 秒後，測試 80
   sleep 10
