@@ -16,7 +16,7 @@
   echo " 較驗 docker-compose 安裝 : "
   docker-compose -v 
 # 安裝  
-  docker-compose -f docker-compose_v3_centos_mysql_latest.yaml up -d
+  docker-compose -f docker-compose_v3_centos_mysql_latest.yaml40 up -d
 # 睡 30 秒後，測試 80
   sleep 10
   echo " 經過 10 s"
